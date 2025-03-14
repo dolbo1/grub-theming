@@ -15,6 +15,6 @@ This command will extract all files stored in the archive to the current directo
 If you want to extract all of the files into a specific folder, here called `ExampleFiles`, run the following:
 
     $ mkdir ExampleFiles
-    $ mkdir tar -xf example.tar.gz -C ExampleFiles
+    $ tar -xf example.tar.gz -C ExampleFiles
 
 Now all of the extracted files will be found in `ExampleFiles`.

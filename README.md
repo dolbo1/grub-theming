@@ -12,4 +12,10 @@ A good source I've found for some themes is [Gorgeous-GRUB](https://github.com/J
 
 ## Applying the Theme
 
+### Move the theme
+
 First, you'll have to download the theme and [extract](extract.md) it.
+
+Upon extracting your theme, check the folder to make sure it contains a `theme.txt` file.
+
+Once you've confirmed that it does, move the **entire folder** into `/boot/grub/themes`.

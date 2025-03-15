@@ -24,7 +24,7 @@ Once you've confirmed that it does, move the **entire folder** into `/boot/grub/
 
 Then you'll have to modify GRUB's config file. I'll use `nano` as the text editor in this example. Run:
 
-    $ sudo nano /etc/default/grub
+    # sudo nano /etc/default/grub
 
 You must use sudo because /etc/ is in the root directory, meaning editing any files there will require super user access.
 
@@ -37,3 +37,11 @@ Uncomment the line, and type the **entire** path to the `theme.txt` file in the 
 For example, if my theme was called "Thinkpad", my new modified line would look like this:
 
     GRUB_THEME="/boot/grub/themes/Thinkpad/theme.txt"
+
+### Apply the changes to the config
+
+To force GRUB to re-compile the config file, run:
+
+    # sudo grub-mkconfig -o /boot/grub/grub.cfg
+
+And upon reloading your computer, your new theme will be applied!

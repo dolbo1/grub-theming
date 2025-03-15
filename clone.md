@@ -12,7 +12,7 @@ To clone the repo to your current directory, run:
 
     $ git clone https://github.com/Coopydood/HyperFluent-GRUB-Theme.git
 
-The link to the repo (including the .git at the end) can be copied by hitting the "<> Code" button in the top right of the repo site.
+The link to the repo (including the .git at the end) can be copied by hitting the `<> Code` button in the top right of the repo site.
 
 All contents of the repo will now be copied to your current directory, into a folder with a title identical to the title of the repo.
 

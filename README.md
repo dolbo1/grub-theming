@@ -28,7 +28,7 @@ Then you'll have to modify GRUB's config file. I'll use `nano` as the text edito
 
 You must use sudo because /etc/ is in the root directory, meaning editing any files there will require super user access.
 
-In the file, find (<kbd>CTRL</kbd + <kbd>F</kbd>) the line reading:
+In the file, find (<kbd>CTRL</kbd> + <kbd>F</kbd>) the line reading:
 
     #GRUB_THEME=""
 

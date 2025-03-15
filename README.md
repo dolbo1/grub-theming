@@ -16,6 +16,8 @@ A good source I've found for some themes is [Gorgeous-GRUB](https://github.com/J
 
 First, you'll have to download the theme and [extract](extract.md) it.
 
+\*Downloading from [pling.com](https://www.pling.com/browse?cat=109&ord=latest) will give you tar.gz archives, but some themes may require to [clone](clone.md) them from GitHub.
+
 Upon extracting your theme, check the folder to make sure it contains a `theme.txt` file.
 
 Once you've confirmed that it does, move the **entire folder** into `/boot/grub/themes`.

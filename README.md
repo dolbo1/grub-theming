@@ -22,6 +22,20 @@ Upon extracting your theme, check the folder to make sure it contains a `theme.t
 
 Once you've confirmed that it does, move the **entire folder** into `/boot/grub/themes`.
 
+This can me done with either the `mv` (move) or the `cp` (copy) commands, whichever you prefer.
+
+To use `mv`, run:
+
+    # sudo mv FolderName/ /boot/grub/themes/
+
+To use 'cp', run:
+
+    # sudo cp -r FolderName/ /boot/grub/themes/
+
+- `sudo` must be used due to the end directory being a root directory.
+- `/` at the ends are not strictly necessary, but are recommended to ensure you are working with a folder, not an individual file.
+- `-r` stands for "recursively," and is used indicate that you wish to copy a folder, not a file. This is required for the `cp` command.
+
 ### Tell GRUB to use the theme
 
 Then you'll have to modify GRUB's config file. I'll use `nano` as the text editor in this example. Run:

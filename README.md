@@ -19,3 +19,21 @@ First, you'll have to download the theme and [extract](extract.md) it.
 Upon extracting your theme, check the folder to make sure it contains a `theme.txt` file.
 
 Once you've confirmed that it does, move the **entire folder** into `/boot/grub/themes`.
+
+### Tell GRUB to use the theme
+
+Then you'll have to modify GRUB's config file. I'll use `nano` as the text editor in this example. Run:
+
+    $ sudo nano /etc/default/grub
+
+You must use sudo because /etc/ is in the root directory, meaning editing any files there will require super user access.
+
+In the file, find (<kbd>CTRL</kbd + <kbd>F</kbd>) the line reading:
+
+    #GRUB_THEME=""
+
+Uncomment the line, and type the **entire** path to the `theme.txt` file in the theme you've copied earlier
+
+For example, if my theme was called "Thinkpad", my new modified line would look like this:
+
+    GRUB_THEME="/boot/grub/themes/Thinkpad/theme.txt"

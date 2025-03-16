@@ -22,7 +22,7 @@ Upon extracting your theme, check the folder to make sure it contains a `theme.t
 
 Once you've confirmed that it does, move the **entire folder** into `/boot/grub/themes`.
 
-This can me done with either the `mv` (move) or the `cp` (copy) commands, whichever you prefer.
+This can be done with either the `mv` (move) or the `cp` (copy) commands, whichever you prefer.
 
 To use `mv`, run:
 
